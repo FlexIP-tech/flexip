@@ -79,36 +79,6 @@
         }
     },
     {
-        "template": "video-carousel-text",
-        "props": {
-            "id": "animatediff",
-            "title": "Incorporating with video models (AnimateDiff, SD15)",
-            "items": [
-                {
-                    "url": "https://flexip.oss-cn-beijing.aliyuncs.com/vids/animatediff/animal-00.mp4",
-                    "description": "A kitten sitting in a sunny garden with fluttering butterflies."
-                },
-                {
-                    "url": "https://flexip.oss-cn-beijing.aliyuncs.com/vids/animatediff/animal-12.mp4",
-                    "description": "A dog playing fetch on a sunny beach."
-                },
-                {
-                    "url": "https://flexip.oss-cn-beijing.aliyuncs.com/vids/animatediff/animal-13.mp4",
-                    "description": "A polar bear waving at the camera."
-                },
-                {
-                    "url": "https://flexip.oss-cn-beijing.aliyuncs.com/vids/animatediff/animal-22.mp4",
-                    "description": "A corgi roaming the market."
-                },
-                {
-                    "url": "https://flexip.oss-cn-beijing.aliyuncs.com/vids/animatediff/animal-39.mp4",
-                    "description": "Dolphins are swimming in the sunny sea."
-                }
-            ],
-            "count": 2
-        }
-    },
-    {
         "template": "row-gallery",
         "props": {
             "title": "Incorporating with Inpainting Models (SDXL-Inpainting)",

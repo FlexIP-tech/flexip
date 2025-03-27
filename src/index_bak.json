@@ -189,5 +189,35 @@
         "props": {
             "bibTeX": "@misc{xu2024hallo,\n\ttitle={Hallo: Hierarchical Audio-Driven Visual Synthesis for Portrait Image Animation}, \n\tauthor={Mingwang Xu and Hui Li and Qingkun Su and Hanlin Shang and Liwei Zhang and Ce Liu and Jingdong Wang and Yao Yao and Siyu zhu},\n\tyear={2024},\n\teprint={2406.08801},\n\tarchivePrefix={arXiv},\n\tprimaryClass={cs.CV}\n}"
         }
+    },
+    {
+        "template": "video-carousel-text",
+        "props": {
+            "id": "animatediff",
+            "title": "Incorporating with video models (AnimateDiff, SD15)",
+            "items": [
+                {
+                    "url": "https://flexip.oss-cn-beijing.aliyuncs.com/vids/animatediff/animal-00.mp4",
+                    "description": "A kitten sitting in a sunny garden with fluttering butterflies."
+                },
+                {
+                    "url": "https://flexip.oss-cn-beijing.aliyuncs.com/vids/animatediff/animal-12.mp4",
+                    "description": "A dog playing fetch on a sunny beach."
+                },
+                {
+                    "url": "https://flexip.oss-cn-beijing.aliyuncs.com/vids/animatediff/animal-13.mp4",
+                    "description": "A polar bear waving at the camera."
+                },
+                {
+                    "url": "https://flexip.oss-cn-beijing.aliyuncs.com/vids/animatediff/animal-22.mp4",
+                    "description": "A corgi roaming the market."
+                },
+                {
+                    "url": "https://flexip.oss-cn-beijing.aliyuncs.com/vids/animatediff/animal-39.mp4",
+                    "description": "Dolphins are swimming in the sunny sea."
+                }
+            ],
+            "count": 2
+        }
     }
 ]
