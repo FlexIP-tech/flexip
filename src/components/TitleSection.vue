@@ -1,5 +1,8 @@
 <template>
     <section class="title">
+        <div class="icon-container">
+            <img src="../assets/imgs/icon.png" alt="Title Icon" class="title-icon">
+        </div>
         <h1>{{ title }}</h1>
         <h3>{{ subtitle }}</h3>
 
@@ -98,5 +101,15 @@ onMounted(() => {
     i {
         @apply mr-1;
     }
+}
+
+.icon-container {
+    height: 100%;
+}
+
+.title-icon {
+    height: 512px; /* Adjust to match your title height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: contain;
 }
 </style>

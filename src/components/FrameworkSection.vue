@@ -19,6 +19,9 @@ interface Props {
 const { props } = defineProps<{ props: Props }>()
 const image = (props.image || "").startsWith("assets") ? new URL(`../${props.image}`, import.meta.url).href : props.image
 const description = props.description
+
+// console.log(image)
+
 </script>
 
 <style lang="scss" scoped>
