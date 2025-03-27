@@ -1,7 +1,7 @@
 <template>
     <section class="title">
         <div class="icon-container">
-            <img src="../assets/imgs/icon.png" alt="Title Icon" class="title-icon">
+            <img src="https://flexip.oss-cn-beijing.aliyuncs.com/imgs/icon.png" alt="Title Icon" class="title-icon">
         </div>
         <h1>{{ title }}</h1>
         <h3>{{ subtitle }}</h3>
